@@ -5,15 +5,16 @@ The project comprises a dataset sourced from the Python Seaborn Library, specifi
 Key Features:
 1. Dataset preprocessing and exploration
    #Handling Missing Values: Identifying and addressing missing data points by removing affected rows.
+   
    #Feature Encoding: Converting categorical variables into numerical representations through techniques.
        df['sex'] -> Male = -1        Female = 1
        df['embarked'] -> 'S'= 1,'C'= 2,'Q'= 3
    #Feature Scaling: Standardizing or normalizing numerical features to bring them within a similar range, preventing certain features from dominating the model training process.
 
-2. Machine learning model training and evaluation
+3. Machine learning model training and evaluation
    #Algorithm Selection: Logistic Regression
    #Model Evaluation: Evaluating model performance using relevant metrics such as accuracy, precision, recall, and F1-score, as well as visualizations like confusion matrices.
    
-3. Prediction of survival outcomes based on passenger attributes
+4. Prediction of survival outcomes based on passenger attributes
 
 
