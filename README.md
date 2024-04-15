@@ -3,9 +3,8 @@ This repository contains a machine learning project focused on predicting surviv
 The project comprises a dataset sourced from the Python Seaborn Library, specifically the "Titanic dataset", alongside Python source code and comprehensive documentation delineating the implementation and utilization of the classification system. Contributions and feedback are encouraged and appreciated.
 
 Key Features:
-1. Dataset preprocessing and exploration
-   #Handling Missing Values: Identifying and addressing missing data points by removing affected rows.
-   
+1. Dataset preprocessing and exploration \n
+   #Handling Missing Values: Identifying and addressing missing data points by removing affected rows.\n
    #Feature Encoding: Converting categorical variables into numerical representations through techniques.
        df['sex'] -> Male = -1        Female = 1
        df['embarked'] -> 'S'= 1,'C'= 2,'Q'= 3
